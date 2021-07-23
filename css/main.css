@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-align: right;
+  color: #a8a2ff;
+}
+
+a:hover {
+  color: #fcfcfc;
+}
+
+.navbar {
+  min-height: 10vh;
+}
+
+.navbar .nav-item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='4' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.hero-1 {
+  min-height: auto;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: linear-gradient(170deg, #000013 0%, #000013 50%, black 100%);
+  text-align: center;
+}
+
+.hero-1 h1 {
+  color: #fcfcfc;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.hero-1 h5 {
+  display: block;
+  color: #fcfcfc;
+  font-size: 16px;
+}
+
+.hero-2 {
+  min-height: auto;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#201d36), color-stop(50%, #201d36), to(#201d36));
+  background: linear-gradient(180deg, #201d36 0%, #201d36 50%, #201d36 100%);
+  text-align: center;
+}
+
+.hero-2 h1 {
+  color: #fcfcfc;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hero-2 h5 {
+  display: block;
+  color: #fcfcfc;
+  font-size: 16px;
+}
+
+.hero-3 {
+  min-height: auto;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: linear-gradient(190deg, #000013 0%, black 50%, black 100%);
+  text-align: center;
+}
+
+.hero-3 h1 {
+  color: #fcfcfc;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hero-3 h5 {
+  display: block;
+  color: #fcfcfc;
+  font-size: 16px;
+}
+
+.hero-4 {
+  min-height: auto;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1d1535), color-stop(50%, #1d1535), to(#1d1535));
+  background: linear-gradient(180deg, #1d1535 0%, #1d1535 50%, #1d1535 100%);
+  text-align: center;
+}
+
+.hero-4 h1 {
+  color: #fcfcfc;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hero-4 h5 {
+  display: block;
+  color: #fcfcfc;
+  font-size: 16px;
+}
+
+.hero-5 {
+  min-height: auto;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(50%, black), to(black));
+  background: linear-gradient(180deg, black 0%, black 50%, black 100%);
+  text-align: center;
+}
+
+.hero-5 h1 {
+  color: #fcfcfc;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hero-5 h5 {
+  display: block;
+  color: #fcfcfc;
+  font-size: 16px;
+}
+/*# sourceMappingURL=main.css.map */

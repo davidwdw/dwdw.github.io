@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-align: right;
+    color: #a8a2ff;
+    &:hover {
+    color: #fcfcfc;
+    }
+}  
+.navbar {
+    min-height: 10vh;
+    .nav-item {
+        display: inline-flex;
+        align-items: center;
+    }  
+    .custom-toggler .navbar-toggler-icon { 
+        background-image: url( 
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='4' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+    }
+    } 
+
+@mixin hero-container($height,$min-height:auto,$degree:175deg,$color1:#000013,$color2:#1e0e35,$color3:black,$size:32px) {
+    min-height:$min-height;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background: linear-gradient(
+        $degree,
+        $color1 0%,
+        $color2 50%,
+        $color3 100%,
+        );
+    text-align: center;
+    h1 {
+        color: #fcfcfc;
+        font-size: $size;
+        font-weight: bold;
+        }
+    h5 {
+        display: block;
+        color: #fcfcfc;
+        font-size: 16px;
+    }
+}
+
+.hero-1{
+    @include hero-container(500px,auto,170deg,#000013,#000013,black,42px);
+}
+
+.hero-2{
+    @include hero-container(600px,auto,180deg,#201d36,#201d36,#201d36);
+}
+
+.hero-3{
+    @include hero-container(1000px,auto,190deg,#000013,black,black);
+}
+
+.hero-4{
+    @include hero-container(600px,auto,180deg,#1d1535,#1d1535,#1d1535);
+}
+
+.hero-5{
+    @include hero-container(600px,auto,180deg,black,black,black);
+}
