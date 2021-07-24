@@ -14,7 +14,7 @@
 </head>
 
 <body style="background-color: black;">
-    <nav class="py-1 navbar navbar-expand-lg navbar-dark flex-row bd-nav-bar" style="background-color:black;">
+    <nav class="py-1 navbar navbar-expand-lg navbar-dark flex-row bd-nav-bar" style="background-color:black;" id="navbar">
         <div class="container">
         <a class="navbar-brand font-weight-bold m-2" href="#">
             <img src="images/profile_image.png" alt="profile_image" class="profile_image" width="56px" height="56px">
@@ -24,7 +24,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
     <!-- navbar links -->
-            <div id="navbar" class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav navbar-right ml-auto justify-content-end">
                     <li class="nav-item active m-2">
                         <a class="nav-link font-weight-light" href="#about">About Me</a>
@@ -42,13 +42,27 @@
             </div>
         </div>
     </nav>
+    <div class="m-0 p-0 pb-1 text-center" style="background-color: rgb(116, 84, 160); color: white;">
+        <small class="font-weight-light d-none d-md-block">Welcome to my website! As this website is coded from scratch by myself, please <a class="font-weight-light" style="color: white;" href="mailto:david.wang@kellogg.northwestern.edu">contact me</a> if you encounter any bugs.</small>
+        <small class="font-weight-light d-block d-md-none">Welcome! Please <a class="font-weight-light" style="color: white;" href="mailto:david.wang@kellogg.northwestern.edu">contact me</a> if you encounter any bugs.</small>
+        </div>
 
-    <div class="hero-1" style="height:450px; background-image: url('images/hero_cloud.svg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <div class="hero-1" style="height:550px; background-image: url('images/hero_cloud.svg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
         <div class="container">
             <div class="row h-100">
-                <div class="col-12 ">
+                <div class="d-none d-md-block col-12 mt-5">
                     <h1>Dawei "David" Wang</h1>
                     <small class="font-weight-light" style="color: white;">PhD Candidate at Northwestern Kellogg School of Management</small>
+                    <div class="pt-4">
+                        <a class="m-1" href="images/Reume_Dawei_Wang.pdf" target="_blank"><img src="images/cv2.svg" alt="CV" width="40" height="40"/></a>
+                        <a class="m-1" href="https://www.linkedin.com/in/imdwdw" target="_blank"><img src="images/linkedin.svg" alt="Linkedin" width="40" height="40" /></a>
+                        <a class="m-1" href="https://scholar.google.com/citations?user=7WMG33wAAAAJ&hl=en" target="_blank"><img src="images/google.svg" alt="GScholar" width="40" height="40" /></a>
+                        <a class="m-1" href="mailto:david.wang@kellogg.northwestern.edu"><img src="images/email.svg" alt="GScholar" width="40" height="40" /></a>
+                    </div>
+                </div>
+                <div class="d-block d-md-none col-12 mt-5">
+                    <h1>Dawei Wang</h1>
+                    <small class="font-weight-light" style="color: white;">PhD Candidate at Northwestern Kellogg</small>
                     <div class="pt-4">
                         <a class="m-1" href="images/Reume_Dawei_Wang.pdf" target="_blank"><img src="images/cv2.svg" alt="CV" width="40" height="40"/></a>
                         <a class="m-1" href="https://www.linkedin.com/in/imdwdw" target="_blank"><img src="images/linkedin.svg" alt="Linkedin" width="40" height="40" /></a>
@@ -68,7 +82,7 @@
                         <div class="col-md-8 offset-md-2 col-12 text-left">
                             <h1 class="font-weight-bold mb-5">About Me</h1>
                             <div><small class="font-weight-light" style="color: white;">
-                                I am a PhD candidate in Management & Organizations at <a href="https://www.kellogg.northwestern.edu/doctoral/academicexperience/current_students.aspx" target="_blank">Northwestern Kellogg School of Management</a> (expected to graduate in 2022). I am on the job market for tenure-track research faculty position starting this academic year (2021-2022). You can access <a class="cta" href="images/Reume_Dawei_Wang.pdf" target="_blank" class="m-2">my resume here</a>.</small></div>
+                                I am a PhD candidate in Management & Organizations at <a href="https://www.kellogg.northwestern.edu/doctoral/academicexperience/current_students.aspx" target="_blank">Northwestern Kellogg School of Management</a> (expected to graduate in 2022). I am also a visiting PhD student at the <a href="https://amaral.northwestern.edu" target="_blank">Amaral Lab</a> at Northwestern's McCormick School of Engineering. I am on the job market for tenure-track research faculty position starting this academic year (2021-2022). You can access <a class="cta" href="images/Reume_Dawei_Wang.pdf" target="_blank" class="m-2">my resume here</a>.</small></div>
                             <div class="pt-3"><small class="font-weight-light" style="color: white;">
                                 My research focuses on artificial intelligence and decision-making. The recent advancements in processing speed, data storage and algorithms have inevitably brought us to an age of artificial intelligence and big data. In light of these discussions, my research aims to explore the limits and bounds of artificial intelligence, as well as theorize the benefits and disadvantages associated with various forms of intelligent systems, such as collective, organizational and human intelligence. In answering these questions, I hope to create a framework to navigate this rich but chaotic digital age.</small></div>
                             <div class="pt-3"><small class="font-weight-light" style="color: white;">
@@ -178,7 +192,7 @@
                         <div class="col-md-8 offset-md-2 col-12 text-left">
                             <h1 class="font-weight-bold mb-5">Teaching</h1>
                             <div><small class="font-weight-light" style="color: white;">
-                                At Kellogg, I was mainly involved in assisting Dashun Wang and Hyejin Youn in the <a href="https://www.dashunwang.com/teaching" target="_blank">Social Dynamics and Network Analysis</a> class, where we teach MBA students social network analysis. Outside of Kellogg, I taught an 8-hour workshop at <a href="https://english.pku.edu.cn/" target="_blank">Peking University</a>—an introduction on different computational methods, including agent-based modelling, machine learning, social network analysis. Informally, I taught my research assistants Python and machine learning. One of my them successfully transitioned from chemistry to data science through my help.</small></div>
+                                At Kellogg, I was mainly involved in assisting <a href="https://www.kellogg.northwestern.edu/faculty/directory/wang_dashun.aspx" targe="_blank">Dashun Wang</a> and <a href="https://www.kellogg.northwestern.edu/faculty/directory/youn_hyejin.aspx" targe="_blank">Hyejin Youn</a> in the <a href="https://www.dashunwang.com/teaching" target="_blank">Social Dynamics and Network Analysis</a> class, where we teach MBA students social network analysis. Outside of Kellogg, I taught an 8-hour workshop at <a href="https://english.pku.edu.cn/" target="_blank">Peking University</a>—an introduction on different computational methods, including agent-based modelling, machine learning, social network analysis. Informally, I taught my research assistants Python and machine learning. One of my them successfully transitioned from chemistry to data science through my help.</small></div>
                         </div>
                     </div>
                 </div>
@@ -196,24 +210,28 @@
                     <div class="row">
                         <div class="col-md-8 offset-md-2 col-12 text-left">
                             <h1 class="font-weight-bold mb-5">My Apps</h1>
-                            <div class="row my-5">
-                                <div class="col-md-2 col-12">
-                                    <a href="http://vueprep.com" target="_blank"><img src="images/vueprep.png" alt="vueprep" width="72px" height="72px"></a>
+                            <div><small class="font-weight-light" style="color: white;">
+                                I assisted the development of a few open-source, non-commercial web applications, mostly used in hiring situtaions. I built the AI technology in these applications, as well as helped in the development of these platforms. These apps are built to test the limits and objectiveness of AI technology.</small></div>
+                            <div class="row my-5 text-center">
+                                <div class="col-md-2 col-12 pb-4 pb-md-0 mt-0 mt-md-5">
+                                    <a href="#" target="_blank"><img src="images/vueprep.png" alt="vueprep" width="56px" height="56px"></a>
                                 </div>
-                                <div class="col-md-10 col-12">
+                                <div class="col-md-10 col-12 text-left">
+                                    <p class="font-weight-bold" style="color: white;">VuePrep - Online interview preparation platform</p>
                                     <div class="my-2">
-                                        <small class="font-weight-light" style="color: white;">VuePrep ., Presentation in Self-Posted Facial Images Can Expose Sexual Orientation; Implications for Research and Privacy. (Second round review at JPSP).
+                                        <small class="font-weight-light" style="color: white;">VuePrep is a smart online application to help people prepare for online interviews. It provides instant feedback, unlimited playbacks of past sessions and customizable interview questions. It is the ultimate tool to help ace the online interview format.  
                                         </small>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row mt-5">
-                                <div class="col-md-2 col-12">
-                                    <a href="http://rugoo.com" target="_blank"><img src="images/rugoo.png" alt="rugoo" width="70px" height="70px"></a>
+                            <div class="row mt-5 text-center">
+                                <div class="col-md-2 col-12 pb-4 pb-md-0 mt-0 mt-md-5">
+                                    <a href="#" target="_blank"><img src="images/rugoo.png" alt="rugoo" width="56px" height="56px"></a>
                                 </div>
-                                <div class="col-md-10 col-12">
+                                <div class="col-md-10 col-12 text-left">
+                                    <p class="font-weight-bold" style="color: white;">Rugoo - AI-powered online interview platform</p>
                                     <div class="mt-2">
-                                        <small class="font-weight-light" style="color: white;">Wang, D., Presentation in Self-Posted Facial Images Can Expose Sexual Orientation; Implications for Research and Privacy. (Second round review at JPSP).
+                                        <small class="font-weight-light" style="color: white;">Rugoo is an AI-powered online interview platform. It is based on similar technology as VuePrep, but it provides recruiters with more automated insights and ability to quickly, accurately and objectively evaluate interview candidates. Currently, Rugoo is still in beta-testing. 
                                         </small>
                                     </div>
                                 </div>
