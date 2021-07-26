@@ -42,6 +42,12 @@ a:hover {
   font-weight: bold;
 }
 
+.hero-1 h2 {
+  color: #fcfcfc;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 .hero-1 h5 {
   display: block;
   color: #fcfcfc;
@@ -63,6 +69,12 @@ a:hover {
   font-weight: bold;
 }
 
+.hero-2 h2 {
+  color: #fcfcfc;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 .hero-2 h5 {
   display: block;
   color: #fcfcfc;
@@ -78,6 +90,12 @@ a:hover {
 }
 
 .hero-3 h1 {
+  color: #fcfcfc;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hero-3 h2 {
   color: #fcfcfc;
   font-size: 32px;
   font-weight: bold;
@@ -104,6 +122,12 @@ a:hover {
   font-weight: bold;
 }
 
+.hero-4 h2 {
+  color: #fcfcfc;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 .hero-4 h5 {
   display: block;
   color: #fcfcfc;
@@ -120,6 +144,12 @@ a:hover {
 }
 
 .hero-5 h1 {
+  color: #fcfcfc;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hero-5 h2 {
   color: #fcfcfc;
   font-size: 32px;
   font-weight: bold;
